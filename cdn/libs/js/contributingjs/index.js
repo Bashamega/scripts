@@ -17,18 +17,18 @@ function createElement(tag, attributes = {}) {
 }
 
 const errorcss = document.createElement('link');
-errorcss.href = "styles/error.css";
+errorcss.href = "https://bashamega.github.io/scripts/cdn/libs/js/contributingjs/styles/error.css";
 errorcss.rel = "stylesheet";
 
 const grid = document.createElement('link');
-grid.href = "styles/contributors/grid.css";
+grid.href = "https://bashamega.github.io/scripts/cdn/libs/js/contributingjs/styles/contributors/grid.css";
 grid.rel = "stylesheet";
 
 const slideshow = document.createElement('link');
-slideshow.href = "styles/contributors/slideshow.css";
+slideshow.href = "https://bashamega.github.io/scripts/cdn/libs/js/contributingjs/styles/contributors/slideshow.css";
 slideshow.rel = "stylesheet";
 const list = document.createElement('link');
-list.href = "styles/contributors/list.css";
+list.href = "https://bashamega.github.io/scripts/cdn/libs/js/contributingjs/styles/contributors/list.css";
 list.rel = "stylesheet";
 const div = document.getElementById('contributors');
 
